@@ -1,0 +1,279 @@
+*{margin:0; padding:0; font-family: sans-serif}
+#contenedor {
+    margin: 0px auto; 
+    width: 1080px;
+    background: rgb(88, 88, 88);}
+
+#encabezado {
+    height: 50px; 
+    background: rgba(255, 238, 2, 0.719);
+    position: fixed;}
+.borde{
+    box-shadow: 0 3px 5px black;
+    position:fixed;}
+
+#logo {
+    width: 300px; 
+    height: 50px;
+    float: left;}
+#logo img{
+    width: 60px; 
+    height: 50px; 
+    margin-left: 10px;}
+
+#menu {
+    width: 1080px; 
+    height: 50px;}
+#menu ul{
+    list-style: none;
+    float:right;}
+#menu ul li{
+    float: left; 
+    width: 120px; 
+    height: 30px; 
+    text-align: center;
+    margin-top: 16px;}
+#menu ul li a:link, #menu ul li a:visited{
+    width: 120px; 
+    height: 30px; 
+    display: block; 
+    text-decoration: none;
+    color:black;
+    font-weight: bold; 
+    font-size: 15px;
+    font-weight: normal;}
+#menu ul li a:hover{
+    background: rgba(165, 162, 162, 0.589);
+    color:black;
+    width: 110px;}
+
+
+#Productos{
+    height: 550px;
+}
+
+#zapas{
+    width: 1000px;
+}
+#zapas img{
+    height: 550px; 
+    width: 1080px;
+    
+}
+#principales{height: 500px;}
+#caja1{background: mediumpurple;width: 350px;height:500px ;float: left;margin-left: 5px; margin-right: 10px;}
+
+
+#caja2{background: mediumspringgreen;width: 350px;height: 500px;float: left; margin-right: 10px;}
+
+#caja3{background: navy;width: 350px;height: 500px;float: left;}
+
+
+#equipo{
+    position: relative;
+    height: 400px;
+    background-image: url(../Imagenes/LaOficina.jpg.png);
+    
+}
+#titulo{
+    height: 50px;
+    color: white;
+}
+#titulo h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.contenedor{
+    height: 250px;
+    width: 180px;
+    margin-left: 250px;  
+    margin-top: 50px; 
+    float: left;
+    position: relative;
+}
+.contenedor img{
+    height: 220px;
+    width: 180px;
+    border-radius: 10px;
+    Box-shadow: 0 2px 40px rgb(29, 29, 29);
+    position: absolute;
+
+}
+.contenedor h2{
+    position: absolute;
+    color: white;
+    top: 160px;
+    font-size: 20px;
+
+}
+.contenedor p{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    text-align: center;
+
+
+}
+.equipo h1{
+    font-size: 35px;
+    margin-left:410px;
+    margin-top: 30px;
+    position: absolute;
+    color:white;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.texto h2{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    margin-left: 240px;
+    bottom: 50px;
+    position: relative;
+
+}
+.texto p{
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    margin-left: 240px;
+    bottom: 50px;
+    position: relative;
+}
+#Encuesta{
+    height: 280px;
+    width: 1075px;
+    background-color: rgba(109, 105, 105, 0.377);
+    float: left;
+    border:solid
+}
+#celu{
+    width: 250px;
+    height: 210px;
+    margin-left: 80px;
+    float: left;
+    margin-top: 40px;
+}
+#celu img{
+    width: 250px;
+    height: 210px;
+}
+#textopinion{
+    width: 300px;
+    height: 210px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 40px;
+}
+#textopinion h2{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: rgb(150, 107, 107) 1px 1px 1px ;
+}
+#linkencuesta{
+    width: 250px;
+    height: 210px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 40px;
+}
+#linkencuesta a{
+    color: white;
+    width: 150px;
+    background-color: rgb(221, 40, 40);
+    margin-top: 70px;
+    margin-left: 50px;    
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px black;
+}
+
+.conten h2{
+    float: left;
+    margin-left: 70px;
+    font-size: 50px;
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(0, 0, 0);    
+}
+.conten a{
+    background-color: rgb(194, 0, 0);
+    color: rgb(255, 255, 255);
+    float:right; 
+    width: 150px; 
+    height: 50px; 
+    text-align: center;
+    text-decoration: none;
+    margin-top: 110px; 
+    font-size: 19px;
+    margin-right: 50px;
+    Box-shadow: 0 3px 5px black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+
+
+#Pie{
+    height: 210px;
+    width: 1080px;
+    background-color:rgb(104, 104, 104);
+    float: left;
+}
+
+.iconos{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.iconos img{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.iconos2{
+    height: 30px;
+    width:800px;
+    display: flex;
+    float: left;
+    margin-top: 60px;
+    margin-left:150px;
+}
+.iconos2 img{
+    height: 25px;
+    width: 26px;
+}
+.iconos2 p{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 405px;
+    position:absolute;
+}
+.titulo2{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 120px;
+    margin-left: 255px;
+    position:absolute;
+}

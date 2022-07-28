@@ -1,0 +1,151 @@
+*{margin: 0px; padding: 0px; font-family: sans-serif;}
+#contenedor {
+    margin: 0px auto; 
+    width: 1080px;
+    background-color: rgb(243, 243, 243);}
+
+#encabezado {
+    height: 50px; 
+    background: rgba(255, 238, 2, 0.719);
+    position: fixed;}
+.borde{
+    box-shadow: 0 3px 5px black;
+    position:fixed;}
+
+#logo {
+    width: 300px; 
+    height: 50px;
+    float: left;}
+#logo img{
+    width: 60px; 
+    height: 50px; 
+    margin-left: 10px;
+}
+
+#menu {
+    width: 1080px; 
+    height: 50px;
+}
+#menu ul{
+    list-style: none;
+    float:right;
+}
+#menu ul li{
+    float: left; 
+    width: 120px; 
+    height: 30px; 
+    text-align: center;
+    margin-top: 16px;
+}
+#menu ul li a:link, #menu ul li a:visited{
+    width: 120px; 
+    height: 30px; 
+    display: block; 
+    text-decoration: none;
+    color:black;
+    font-weight: bold; 
+    font-size: 15px;
+    font-weight: normal;
+}
+#menu ul li a:hover{
+    background: rgba(165, 162, 162, 0.589);
+    color:black;
+    width: 110px;
+}
+
+#Productos{height: 550px;
+}
+
+#zapas{width: 1000px;
+}
+#zapas img{height: 550px; width: 1080px;
+}
+
+#variedades{
+    height: 1500px;
+    
+}
+#presentacion{
+    height: 200px;
+    
+    text-align: center;
+}
+#presentacion h2{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+#presentacion p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;  
+
+}
+#caja1{
+    height: 600px;
+    background-color:#f5f5f5;
+    border-style:solid;
+    
+}
+#caja1 img{
+    height: 380px;
+    width: 400px;
+    margin-left: 90px;
+    
+}
+#caja1 h2{
+    
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+#caja1 p{
+    text-align: center;
+    font-size: 20px;
+}
+#caja2{
+    height: 600px;
+    background-color: #ecedef;
+    border-style:solid;
+    margin-top: 20px;
+}
+#caja2 img{
+    height: 380px;
+    width: 400px;
+    margin-left: 90px;
+}
+#caja2 h2{
+    
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+#caja2 p{
+    text-align: center;
+    font-size: 20px;
+}
+#caja3{
+    height: 600px;
+    background-color:white;
+    border-style:solid;
+    margin-top: 20px;
+}
+#caja3 img{
+    height: 380px;
+    width: 400px;
+    margin-left: 90px;
+}
+#caja3 h2{
+    
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+#caja3 p{
+    text-align: center;
+    font-size: 20px;
+}
